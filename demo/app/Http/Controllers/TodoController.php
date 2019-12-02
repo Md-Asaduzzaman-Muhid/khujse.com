@@ -36,4 +36,16 @@ class TodoController extends Controller
         $this->todoService->delete($id);
         return redirect(route('todo.index'));
     }
+
+    public function edit(Request $request){
+        $id = $request->query('id');
+        $this->todoService->delete($id);
+        return redirect(route('todo.index'));
+    }
+
+    public function view(Request $request){
+        $id = $request->query('id');
+        $this->todoService->delete($id);
+        return redirect(route('todo.index'));
+    }
 }
