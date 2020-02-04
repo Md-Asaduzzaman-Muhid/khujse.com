@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "admin-lte": "^3.0.1",
         "ajv": "^6.6.2",
         "express": "^4.16.4",
         "html2canvas": "^1.0.0-rc.1",
@@ -44,5 +45,4 @@
         "vue2-filters": "^0.3.0",
         "vuejs-datepicker": "^1.5.4"
     }
-
 }

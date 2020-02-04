@@ -39,3 +39,4 @@ Route::get('/user/make-user/{id}','UserController@makeUser')->name('user.make.us
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin', 'AdminController@index')->name('admin');
