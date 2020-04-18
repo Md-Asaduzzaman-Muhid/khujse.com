@@ -1,1 +1,17 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// all scss file
+@import 'header';
+@import 'footer';
+@import 'front-page';
+@import 'page-post';
+@import 'utility';
+@import 'common';
+@import 'responsive';

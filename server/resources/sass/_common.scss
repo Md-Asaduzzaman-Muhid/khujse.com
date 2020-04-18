@@ -1,0 +1,19 @@
+.section-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: $secondary;
+    font-weight: 500;
+    &.primary{
+        color: $primary;
+    }
+}
+main{
+    min-height: 55vh;
+}
+.footer-copyright{
+    display: none;
+}
+.form-control{
+    border-radius: 0;
+
+}

@@ -1,0 +1,29 @@
+.footer{
+    background-color: $secondary;
+}
+
+.footer-copyright{
+    border-top: 2px solid $primary;
+    color: #fff;
+
+}
+.footer-top{
+    a{
+        color: #fff;
+
+    }
+    
+}
+.footer-menu{
+    li{
+        padding: 5px 0;
+        a{
+            padding: 5px; 
+            text-decoration: none;
+            &:hover{
+                padding-left: 10px;
+            }
+        }
+    }
+    
+}
