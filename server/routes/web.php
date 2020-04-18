@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,13 +15,4 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::prefix('api')->group(function () {
-    Route::get('vendors', 'VendorController@index')->name('svendors');
-    Route::post('vendors', 'VendorController@store')->name('vendors');
 });
